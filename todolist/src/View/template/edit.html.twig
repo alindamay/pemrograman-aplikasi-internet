@@ -1,0 +1,5 @@
+<!-- filename: template/edit.html.twig -->
+<form action="/todo/{{ todo.id }}/edit" method="POST">
+	<input type="text" name="activity" value="{{ todo.activi ty }}" />
+	<button type="submit">Simpan</button>
+</form>

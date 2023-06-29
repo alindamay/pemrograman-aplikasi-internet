@@ -1,0 +1,28 @@
+{
+  "type": "library",
+  "license": "proprietary",
+  "name": "modernoop/pph21",
+  "authors": [
+    {
+      "name": "20158638",
+      "email": "20158638@sttdb.ac.id",
+      "homepage": "https://sttdb.ac.id"
+    }
+  ],
+  "require": {
+    "php": "^7.0.33"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true,
+    "classmap-authoritative": true,
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "20158638\\php\\28 - composer\\": "src/"
+    }
+  }
+}

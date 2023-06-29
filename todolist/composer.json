@@ -1,0 +1,7 @@
+{
+    "require": {
+        "usmanhalalit/pixie": "^2.0",
+        "symfony/property-access": "^3.4",
+        "twig/twig": "^2.12"
+    }
+}

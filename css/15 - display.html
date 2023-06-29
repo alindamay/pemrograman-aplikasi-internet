@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* element div akan menempati satu baris penuh pada halaman web dan memiliki lebar 200px serta tinggi 100px */
+      div {
+        display: block;
+        width: 200px;
+        height: 100px;
+        background-color: #ffffff;
+      }
+
+      /* elemen a akan menempati sebagian baris pada halaman web dan memiliki jarak padding 10px, border 1px solid hitam, serta latar belakang warna abu-abu */
+      a {
+        display: inline;
+        padding: 10px;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+      }
+
+      /* elemen input dengan tipe submit tidak akan ditampilkan pada halaman web */
+      input[type="submit"] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>20158638</p>
+      <br />
+      <a
+        href="https://santrikoding.com/account/my-courses/css-untuk-pemula/1903"
+        >Link</a
+      >
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
